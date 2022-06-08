@@ -134,4 +134,3 @@ class TestDecorators(TestCase):
     def test_handler(self):
         decorator = LoggingDecorator(logging.INFO, "", handler=self.log_handler)
         self.assertEqual(decorator.get_logger(generic_func).name, "test_generic")
-
