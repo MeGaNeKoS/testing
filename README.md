@@ -1,3 +1,4 @@
+![example workflow](https://github.com/MeGaNeKoS/testing/actions/workflows/python-test/badge.svg)
 devlog
 =====
 
